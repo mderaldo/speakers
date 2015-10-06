@@ -28,7 +28,8 @@ cd $HOME
 mkdir .virtualenvs
 ```
 
-open your .bash_login and add this line
+Open the $HOME/.bash_profile and include the follow line:
+
 ```
 source /usr/local/bin/virtualenvwrapper.sh
 ```
@@ -36,8 +37,20 @@ source /usr/local/bin/virtualenvwrapper.sh
 Here you can see the documentation for [virtualenvwrapper](with http://virtualenvwrapper.readthedocs.org/en/latest/) that can help.
 
 
+####Install virtualenvwrapper
+
 ##Run speakers
 
-python app.py
+To create the virtual enviroments for speakers application, run the next line in terminal:
 
-go to http://127.0.0.1:5000
+```
+workon speakers
+```
+
+To start speakers application run the follow line in terminal:
+
+```
+python app.py
+```
+
+To see the speakers application running go to browser and enter with the follow url: [http://127.0.0.1:5000](http://127.0.0.1:5000)
