@@ -16,19 +16,18 @@ sudo pip install virtualenv
 
 ####Install virtualenvwrapper
 
-Virtualenvwrapper is tool
-To install it run the follow line in your terminal:
+[Virtualenvwrapper](https://virtualenvwrapper.readthedocs.org/en/latest/) is a set of extension for virtualenv tool. To install it open the terminal and run the follow line:
 ```
 sudo pip install virtualenvwrapper
 ```
-
+Run the follow lines to create a space in HOME for virtual enviroments. 
 
 ```
 cd $HOME
 mkdir .virtualenvs
 ```
 
-Open the $HOME/.bash_profile and include the follow line:
+Open the .bash_login add the follow line to set the location where the virtual environments should live.
 
 ```
 source /usr/local/bin/virtualenvwrapper.sh
@@ -37,20 +36,8 @@ source /usr/local/bin/virtualenvwrapper.sh
 Here you can see the documentation for [virtualenvwrapper](with http://virtualenvwrapper.readthedocs.org/en/latest/) that can help.
 
 
-####Install virtualenvwrapper
-
 ##Run speakers
 
-To create the virtual enviroments for speakers application, run the next line in terminal:
-
-```
-workon speakers
-```
-
-To start speakers application run the follow line in terminal:
-
-```
 python app.py
-```
 
-To see the speakers application running go to browser and enter with the follow url: [http://127.0.0.1:5000](http://127.0.0.1:5000)
+go to http://127.0.0.1:5000
