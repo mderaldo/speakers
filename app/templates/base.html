@@ -1,0 +1,14 @@
+<html>
+  <head>
+    {% if title %}
+    <title>{{ title }} - speaker</title>
+    {% else %}
+    <title>Welcome to speaker</title>
+    {% endif %}
+  </head>
+  <body>
+    <div><a href="/index">Home</a></div>
+    <hr>
+    {% block content %}{% endblock %}
+  </body>
+</html>
