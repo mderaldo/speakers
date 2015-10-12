@@ -6,3 +6,5 @@
 
 # Mac OS X custom attribute files
 .DS_STORE
+venv
+*.pyc
